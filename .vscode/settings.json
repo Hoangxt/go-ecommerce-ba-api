@@ -2,8 +2,10 @@
   "cSpell.words": [
     "dbname",
     "ecommerce",
+    "gorm",
     "mapstructure",
     "natefinch",
-    "shopdevgo"
+    "shopdevgo",
+    "varchar"
   ]
 }
