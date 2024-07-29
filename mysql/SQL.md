@@ -48,3 +48,13 @@ docker exec -it mysql-master mysql -uroot -p123456
 
   CREATE FULLTEXT INDEX index_name ON table_name(column_name(length));
   ALTER TABLE table_name ADD FULLTEXT index_name(column_name(length));
+
+## Section 108: LÀM CHỦ MYSQL - Nguyên tắc sử dụng 6 loại index và công thức tối ưu.
+
+các type:
+All: cho biết tất cả toàn bộ truy vấn đước thực hiện hoặc index không hợp lệ
+system: chỉ có 1 hàng duy nhất được truy vấn
+const: cho biết rằng truy vấn sql index có thể dc thực hiện trong các dk của câu lênh truy vấn hiện tại
+range: phạm vi truy vấn
+ref:
+index:
