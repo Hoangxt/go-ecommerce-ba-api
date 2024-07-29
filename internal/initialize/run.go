@@ -16,7 +16,7 @@ func Run() {
 	InitLogger()
 	global.Logger.Info("Logger init success", zap.String("ok", "success"))
 	// Initialize mysql
-	InitMysql()
+	// InitMysql()
 	// Initialize redis
 	InitRedis()
 	// Initialize router

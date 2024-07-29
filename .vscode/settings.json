@@ -5,6 +5,7 @@
     "gorm",
     "mapstructure",
     "natefinch",
+    "processlist",
     "shopdevgo",
     "varchar"
   ]
