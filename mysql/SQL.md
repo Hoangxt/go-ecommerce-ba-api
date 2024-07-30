@@ -58,3 +58,5 @@ const: cho biết rằng truy vấn sql index có thể dc thực hiện trong c
 range: phạm vi truy vấn
 ref:
 index:
+
+## Section 112: LÀM CHỦ MYSQL - 4 mức độ cô lập trong Transaction
